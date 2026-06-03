@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a1,a2,a3,a4;
+    cin >> a1 >> a2 >> a3 >> a4;
+    string s;
+    cin >> s;
+    int total = 0;
+    for(char c : s){
+        if(c == '1') total = total + a1;
+        else if(c == '2') total = total + a2;
+        else if(c == '3') total = total + a3;
+        else if(c == '4') total = total + a4;
+    }
+    cout << total << endl;
+}
