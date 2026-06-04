@@ -8,9 +8,12 @@ int main()
     cin >> n;
     while (n--)
     {
-        int t;
-        cin >> t;
-        cout << t / 2 << endl;
+        int x, y;
+        cin >> x >> y;
+        if ((x * y) % 2 == 0)
+            cout << (x * y) / 2 << endl;
+        else
+            cout << ((x * y) / 2) + 1 << endl;
     }
 
     return 0;
