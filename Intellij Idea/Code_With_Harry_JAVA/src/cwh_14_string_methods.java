@@ -11,7 +11,7 @@ public class cwh_14_string_methods {
 
         //String ustring = name.toUpperCase();
         //System.out.println(ustring);
-
+        
         //String nonTrimmedString = "     Harry     ";
         //System.out.println(nonTrimmedString);
 

@@ -26,8 +26,12 @@ int main()
     // harry.setId();
     // harry.getId();
     Employee fb[4];
-    for (int i = 0; i < 4; i++)
+    int n;
+    cout << "Enter the number of employee: ";
+    cin >>n;
+    for (int i = 1; i <=n; i++)
     {
+        
         fb[i].setId();
         fb[i].getId();
     }

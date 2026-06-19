@@ -1,1 +1,1 @@
-  // v.pop_back();
+drived_pointer->base_var = 9000;
